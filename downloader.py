@@ -1,15 +1,10 @@
-import pyotp
+
 import time
-from pathlib import Path
-from selenium import webdriver
-from selenium.common import exceptions
-from selenium.webdriver.chrome import options
-from selenium.webdriver.chrome.options import Options
+
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
+
 from selenium.webdriver.support import expected_conditions as EC
-from datetime import date, timedelta, datetime
-import pandas as pd
+
 
 from login import loginWrapper
 
